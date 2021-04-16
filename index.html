@@ -1,6 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <title>My First Website</title>
+<base src="../osasona">
 
 <head>
     <style>
@@ -8,35 +9,43 @@
             background: rgb(168, 72, 15);
             padding: 20px;
             max-width: 170px;
-            border-radius: 60PX;
+            border-radius: 60px;
         }
     </style>
 </head>
 
-<body style="background-color: gray; max-width: 300px; margin: auto;">
+<body style="background-color: gray; ">
     <h3><b>Hello</b></h3>
     <h1 style=" color: rgb(175, 33, 33); "> <strong>SEVENS</strong> CBT <em>SOFTWARE</em></h1>
     <hr>
     <h2 style="color: purple; ">LOGIN PAGE</h2>
-    <img src="/images/IMG-20201026-WA0011.jpg " style="width: 170px; border-radius: 100px; "> <br>
+    <img src="images/IMG-20201026-WA0011.jpg " style="width: 170px; border-radius: 100px; "> <br>
     <form>
-        <b><aside>Matric No</aside></b> <input style="border-radius: 20px; border-style: solid; "> <br>
-        <b><aside>Password</aside></b> <input style="border-radius: 20px; border-style: solid ">
+        <b><aside>Matric No</aside></b> <input type="text" placeholder="matric-no" style=" border-radius: 20px; border-style: solid; "> <br>
+        <b><aside>Password</aside></b>
+        <input type="password" placeholder="Password" style=" border-radius: 20px; border-style: solid ">
         <button type="submit " style="background-color: palegreen; "><b>LOGIN</b>!</button> <br>
         <button type="submit " style="background-color: palegreen; "><b>Forgot Password</b>!</button>
     </form>
     <a href="https://facebook.com ">ask me questions</a>
     <u><i>we are gonna be victorious</i></u> <br>upload your school Id card
-    <br> <input type="file"><button>send</button>
-    <hr>
+    <br> <input type="file "><button>send</button> <br>date of submission
+    <input type="date"> <br> whats your background color <br> <input type="color">
     <pre>i would love to learn backend prog</pre>
-    <form>
-        <label for="matric no ">
-                <input type="checkbox " id="matric-no " placeholder="matric no "> <br>
-                <input>
-            </label>
-    </form>
 
+
+    <form>
+        <h2>sign up </h2>
+        <input placeholder="Email address">
+        <br>
+        <input placeholder="Password" type="password">
+        <br>
+        <input placeholder=" Re-enter Password" type="password"> <br>
+        <input type="checkbox">
+        <em> send me updates</em>
+        <br>
+        <button>Sign &nbsp;Up</button>
+    </form>
 </body>
 
 </html>
