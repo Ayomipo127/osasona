@@ -1,0 +1,116 @@
+        h3 {
+            font-weight: 500;
+            font-size: 39px;
+            color: rgb(240, 225, 18);
+            font-style: italic;
+        }
+        
+        form {
+            background: rgb(168, 72, 15);
+            padding: 20px;
+            max-width: 170px;
+            border-radius: 60px;
+        }
+        
+        h1 {
+            color: rgb(129, 15, 15);
+            font-size: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        h2 {
+            color: rgb(149, 196, 40);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: italic;
+            width: 200px;
+        }
+        
+        body {
+            background-color: rgb(97, 80, 34);
+        }
+        
+        button {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        
+        em {
+            font-weight: bold;
+            font-size: 17px;
+            font-family: cursive;
+        }
+        
+        img {
+            width: 150px;
+            border-radius: 100px;
+            height: 200px;
+            border: solid purple;
+            -webkit-border-radius: 100px border;
+            -moz-border-radius: 100px border;
+            -ms-border-radius: 100px border;
+            -o-border-radius: 100px border;
+            margin: 30px;
+        }
+        
+        h2.temmy {
+            font-size: 30px;
+            font-family: cursive;
+            color: rgb(143, 184, 32);
+        }
+        
+        body.kill {
+            background-color: rgb(51, 15, 15);
+        }
+        
+        h1.bar1 {
+            color: rgb(235, 208, 208);
+            font-size: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: italic;
+        }
+        
+        h3.bar2 {
+            font-weight: 500;
+            font-size: 39px;
+            font-style: italic;
+            color: rgb(235, 208, 208);
+            text-align: center;
+        }
+        
+        ol.bar3 {
+            color: rgb(235, 208, 208);
+            font-size: 20px;
+            font-style: italic;
+        }
+        
+        h2.bar4 {
+            color: honeydew;
+            font-style: italic;
+            font-family: cursive;
+        }
+        
+        pre {
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: thistle;
+            font-weight: bolder;
+            border: solid 3px purple;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        
+        i {
+            color: white;
+            font-size: 20px
+        }
+        
+        .rightwing {
+            padding-right: 300px;
+            background-color: rgb(149, 196, 40);
+        }
