@@ -8,7 +8,7 @@
         form {
             background: rgb(168, 72, 15);
             padding: 20px;
-            max-width: 170px;
+            max-width: 220px;
             border-radius: 60px;
         }
         
@@ -30,7 +30,7 @@
         }
         
         body {
-            margin: 100px;
+            margin: 20px;
             margin-top: 0px;
             background-color: rgb(51, 15, 15);
             border: 50px;
@@ -67,6 +67,18 @@
             -o-border-radius: 100px border;
             margin: auto;
             padding: 5px 5px 5px 5px;
+            transform: rotate(-30deg);
+            -webkit-transform: rotate(-30deg);
+            -moz-transform: rotate(-30deg);
+            -ms-transform: rotate(-30deg);
+            -o-transform: rotate(-30deg);
+            filter: saturate(95%) contrast(85%) darken;
+            -webkit-filter: saturate(95%) contrast(85%) darken;
+        }
+        
+        img.try {
+            filter: opacity(90%) saturate(95%) contrast(85%) brightness(90%);
+            -webkit-filter: opacity(90%) saturate(95%) contrast(85%) brightness(90%);
         }
         
         h2.temmy {
@@ -116,9 +128,9 @@
             font-size: 20px
         }
         
-        .rightwing {
+        p.rightwing {
             padding-right: 300px;
-            background-color: rgb(149, 196, 40);
+            background: linear-gradient(120deg, sandyBrown, saddleBrown)
         }
         
         p {
@@ -126,4 +138,16 @@
             font-style: italic;
             font-family: cursive;
             margin: 10px;
+            font-size: 74%;
+        }
+        
+        div {
+            background-color: red;
+            margin: 10px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        
+        form.signup {
+            max-width: 400px;
         }
