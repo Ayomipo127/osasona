@@ -72,8 +72,8 @@
             -moz-transform: rotate(-30deg);
             -ms-transform: rotate(-30deg);
             -o-transform: rotate(-30deg);
-            filter: saturate(95%) contrast(85%) darken;
-            -webkit-filter: saturate(95%) contrast(85%) darken;
+            filter: saturate(95%) contrast(85%);
+            -webkit-filter: saturate(95%) contrast(85%);
         }
         
         img.try {
@@ -150,4 +150,29 @@
         
         form.signup {
             max-width: 400px;
+        }
+        
+        .calculator {
+            border: 2px solid gray;
+            font-size: 0;
+        }
+        
+        .hit {
+            width: 25%;
+            height: 35px;
+        }
+        
+        .clear {
+            width: 50%;
+            background-color: green;
+        }
+        
+        .submit {
+            width: 50%;
+            background-color: rgb(49, 81, 224);
+        }
+        
+        .trey {
+            text-align: right;
+            font-size: 15px;
         }
