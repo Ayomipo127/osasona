@@ -8,8 +8,12 @@
         form {
             background: rgb(168, 72, 15);
             padding: 20px;
-            max-width: 220px;
-            border-radius: 60px;
+            max-width: 190px;
+            border-radius: 400px;
+            -webkit-border-radius: 400px;
+            -moz-border-radius: 400px;
+            -ms-border-radius: 400px;
+            -o-border-radius: 400px;
         }
         
         h1 {
@@ -33,7 +37,7 @@
             margin: 0%;
             margin-top: 0px;
             background-color: rgb(51, 15, 15);
-            border: 10%;
+            border: 5%;
         }
         
         button {
@@ -57,9 +61,9 @@
         }
         
         img {
-            width: 150px;
+            width: 190px;
             border-radius: 100px;
-            height: 200px;
+            height: 190px;
             border: solid rgb(138, 160, 13);
             -webkit-border-radius: 100px border;
             -moz-border-radius: 100px border;
@@ -67,18 +71,15 @@
             -o-border-radius: 100px border;
             margin: auto;
             padding: 5px 5px 5px 5px;
-            transform: rotate(-30deg);
-            -webkit-transform: rotate(-30deg);
-            -moz-transform: rotate(-30deg);
-            -ms-transform: rotate(-30deg);
-            -o-transform: rotate(-30deg);
             filter: saturate(95%) contrast(85%);
             -webkit-filter: saturate(95%) contrast(85%);
         }
         
-        img.try {
+        .try {
             filter: opacity(90%) saturate(95%) contrast(85%) brightness(90%);
             -webkit-filter: opacity(90%) saturate(95%) contrast(85%) brightness(90%);
+            position: center;
+            align-items: center;
         }
         
         h2.temmy {
@@ -149,7 +150,7 @@
         }
         
         form.signup {
-            max-width: 400px;
+            max-width: 200px;
         }
         
         .calculator {
@@ -175,4 +176,12 @@
         .trey {
             text-align: right;
             font-size: 15px;
+        }
+        
+        .true {
+            filter: saturate(95%) contrast(85%);
+            position: center;
+            margin-left: 40%;
+            align-items: center;
+            -webkit-filter: saturate(95%) contrast(85%);
         }
