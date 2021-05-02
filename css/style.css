@@ -65,14 +65,14 @@
             border-radius: 100px;
             height: 190px;
             border: solid rgb(138, 160, 13);
-            -webkit-border-radius: 100px border;
-            -moz-border-radius: 100px border;
-            -ms-border-radius: 100px border;
-            -o-border-radius: 100px border;
             margin: auto;
             padding: 5px 5px 5px 5px;
             filter: saturate(95%) contrast(85%);
             -webkit-filter: saturate(95%) contrast(85%);
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
+            -ms-border-radius: 100px;
+            -o-border-radius: 100px;
         }
         
         .try {
@@ -119,6 +119,7 @@
             border: solid 3px purple;
             border-radius: 10px;
             display: inline;
+            -webkit-border-radius: 10px;
             -moz-border-radius: 10px;
             -ms-border-radius: 10px;
             -o-border-radius: 10px;
