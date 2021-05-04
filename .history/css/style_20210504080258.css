@@ -9,12 +9,11 @@
             background: rgb(168, 72, 15);
             padding: 20px;
             max-width: 190px;
-            border-radius: 40px;
-            -webkit-border-radius: 40px;
-            -moz-border-radius: 40px;
-            -ms-border-radius: 40px;
-            -o-border-radius: 40px;
-            -moz-border-radius: 40px;
+            border-radius: 400px;
+            -webkit-border-radius: 400px;
+            -moz-border-radius: 400px;
+            -ms-border-radius: 400px;
+            -o-border-radius: 400px;
         }
         
         h1 {
@@ -68,8 +67,8 @@
             border: solid rgb(138, 160, 13);
             margin: auto;
             padding: 5px 5px 5px 5px;
-            filter: saturate(195%) contrast(85%);
-            -webkit-filter: saturate(195%) contrast(85%) grayscale(17%);
+            filter: saturate(95%) contrast(85%);
+            -webkit-filter: saturate(95%) contrast(85%);
             -webkit-border-radius: 100px;
             -moz-border-radius: 100px;
             -ms-border-radius: 100px;
@@ -131,8 +130,9 @@
             font-size: 20px
         }
         
-        .rightwing {
-            background: linear-gradient(120deg, sandyBrown, saddleBrown)
+        p.rightwing {
+            padding-right: 300px;
+            background: linear-gradient(120deg, sandyBrown, saddleBrown) position
         }
         
         p {
@@ -186,24 +186,4 @@
             margin-left: 40%;
             align-items: center;
             -webkit-filter: saturate(95%) contrast(85%);
-        }
-        
-        .first {
-            background-color: lavender;
-        }
-        
-        .second {
-            background-color: rgb(133, 179, 25);
-            top: 20px;
-        }
-        
-        .third {
-            background-color: rgb(12, 143, 88);
-            top: 50px;
-        }
-        
-        strong {
-            position: relative;
-            color: rgb(0, 0, 0);
-            padding: 10px;
         }

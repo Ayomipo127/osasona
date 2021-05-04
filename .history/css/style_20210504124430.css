@@ -189,21 +189,15 @@
         }
         
         .first {
-            background-color: lavender;
+            background-color: ;
         }
         
-        .second {
-            background-color: rgb(133, 179, 25);
-            top: 20px;
-        }
+        .second {}
         
-        .third {
-            background-color: rgb(12, 143, 88);
-            top: 50px;
-        }
+        .third {}
         
         strong {
             position: relative;
-            color: rgb(0, 0, 0);
+            color: blanchedalmond;
             padding: 10px;
         }

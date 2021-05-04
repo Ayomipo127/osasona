@@ -62,9 +62,9 @@
         }
         
         img {
-            width: 190px;
+            width: 10%px;
             border-radius: 100px;
-            height: 190px;
+            height: 10%;
             border: solid rgb(138, 160, 13);
             margin: auto;
             padding: 5px 5px 5px 5px;
@@ -186,24 +186,4 @@
             margin-left: 40%;
             align-items: center;
             -webkit-filter: saturate(95%) contrast(85%);
-        }
-        
-        .first {
-            background-color: lavender;
-        }
-        
-        .second {
-            background-color: rgb(133, 179, 25);
-            top: 20px;
-        }
-        
-        .third {
-            background-color: rgb(12, 143, 88);
-            top: 50px;
-        }
-        
-        strong {
-            position: relative;
-            color: rgb(0, 0, 0);
-            padding: 10px;
         }

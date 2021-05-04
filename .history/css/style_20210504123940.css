@@ -188,22 +188,12 @@
             -webkit-filter: saturate(95%) contrast(85%);
         }
         
-        .first {
-            background-color: lavender;
-        }
+        .first {}
         
-        .second {
-            background-color: rgb(133, 179, 25);
-            top: 20px;
-        }
+        .second {}
         
-        .third {
-            background-color: rgb(12, 143, 88);
-            top: 50px;
-        }
+        .third {}
         
-        strong {
-            position: relative;
-            color: rgb(0, 0, 0);
-            padding: 10px;
+        h5 {
+            position: ;
         }
