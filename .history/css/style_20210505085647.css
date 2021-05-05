@@ -132,7 +132,7 @@
         }
         
         .rightwing {
-            background: linear-gradient(120deg, sandyBrown, saddleBrown);
+            background: linear-gradient(120deg, sandyBrown, saddleBrown)
         }
         
         p {
@@ -206,26 +206,4 @@
             position: relative;
             color: rgb(0, 0, 0);
             padding: 10px;
-        }
-        
-        .yes {
-            position: relative;
-            left: 200px;
-        }
-        
-        .random {
-            position: absolute;
-            right: 0px;
-            top: 130px;
-            font-size: 20px;
-        }
-        
-        .gop {
-            position: absolute;
-            left: 40%;
-        }
-        
-        .pog {
-            position: relative;
-            left: 10%;
         }

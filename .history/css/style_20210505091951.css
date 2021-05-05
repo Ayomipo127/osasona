@@ -210,22 +210,11 @@
         
         .yes {
             position: relative;
-            left: 200px;
+            left: 70px;
         }
         
         .random {
             position: absolute;
             right: 0px;
-            top: 130px;
-            font-size: 20px;
-        }
-        
-        .gop {
-            position: absolute;
-            left: 40%;
-        }
-        
-        .pog {
-            position: relative;
-            left: 10%;
+            size;
         }
