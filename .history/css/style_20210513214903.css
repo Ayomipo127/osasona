@@ -216,8 +216,8 @@
         .random {
             position: absolute;
             right: 0px;
-            top: 230px;
-            font-size: 19px;
+            top: 130px;
+            font-size: 20px;
         }
         
         .gop {
@@ -228,8 +228,4 @@
         .pog {
             position: relative;
             left: 10%;
-        }
-        
-        .container {
-            border: 2px solid #806868;
         }

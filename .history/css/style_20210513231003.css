@@ -217,7 +217,7 @@
             position: absolute;
             right: 0px;
             top: 230px;
-            font-size: 19px;
+            font-size: 15px;
         }
         
         .gop {
@@ -231,5 +231,5 @@
         }
         
         .container {
-            border: 2px solid #806868;
+            border: 2px solid #806868
         }

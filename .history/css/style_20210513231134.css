@@ -231,5 +231,5 @@
         }
         
         .container {
-            border: 2px solid #806868;
+            border: 2px solid #806868 display: flex
         }

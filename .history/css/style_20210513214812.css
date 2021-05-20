@@ -10,10 +10,6 @@
             padding: 20px;
             max-width: 190px;
             border-radius: 40px;
-            -webkit-border-radius: 40px;
-            -moz-border-radius: 40px;
-            -ms-border-radius: 40px;
-            -o-border-radius: 40px;
             -moz-border-radius: 40px;
         }
         
@@ -35,7 +31,7 @@
         }
         
         body {
-            margin: 0%;
+            margin: 0px;
             margin-top: 0px;
             background-color: rgb(51, 15, 15);
             border: 5%;
@@ -69,7 +65,7 @@
             margin: auto;
             padding: 5px 5px 5px 5px;
             filter: saturate(195%) contrast(85%);
-            -webkit-filter: saturate(195%) contrast(85%) grayscale(17%);
+            -webkit-filter: saturate(195%) contrast(85%);
             -webkit-border-radius: 100px;
             -moz-border-radius: 100px;
             -ms-border-radius: 100px;
@@ -216,8 +212,8 @@
         .random {
             position: absolute;
             right: 0px;
-            top: 230px;
-            font-size: 19px;
+            top: 130px;
+            font-size: 20px;
         }
         
         .gop {
@@ -228,8 +224,4 @@
         .pog {
             position: relative;
             left: 10%;
-        }
-        
-        .container {
-            border: 2px solid #806868;
         }
