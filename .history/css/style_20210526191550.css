@@ -166,7 +166,7 @@
         }
         
         .clear {
-            width: 50px;
+            width: 50%;
             background-color: green;
         }
         
@@ -210,19 +210,19 @@
         
         .yes {
             position: relative;
-            left: 5px;
+            left: 200px;
         }
         
         .random {
-            position: relative;
+            position: absolute;
             right: 0px;
-            top: 700px;
-            font-size: 17px;
+            top: 230px;
+            font-size: 19px;
         }
         
         .gop {
-            position: relative;
-            left: -3%;
+            position: absolute;
+            left: 40%;
         }
         
         .pog {

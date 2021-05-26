@@ -214,15 +214,15 @@
         }
         
         .random {
-            position: relative;
+            position: absolute;
             right: 0px;
-            top: 700px;
-            font-size: 17px;
+            top: 500px;
+            font-size: 10px;
         }
         
         .gop {
-            position: relative;
-            left: -3%;
+            position: absolute;
+            left: 40%;
         }
         
         .pog {
