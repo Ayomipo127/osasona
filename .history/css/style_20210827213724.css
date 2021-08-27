@@ -248,11 +248,6 @@ a:visited {
     color: #00FF00;
 }
 
-a:active {
-    background-color: #4CAF50;
-    color: white;
-}
-
 h1::first-line {
     color: #17d5db;
     font-variant: small-caps;
@@ -265,26 +260,25 @@ li a {
     text-decoration: none;
 }
 
-
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}
 
 li {
-    text-align: left;
+    text-align: center;
     border-bottom: 3px solid #555;
-    border-right: 2px solid #555 ;
-    float: left;
 }
 
 li:last-child {
 border-bottom: none;
-border-right: none;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
-    width: 43%;
+    width: 25%;
     background-color: #35470b;
     /* Full height */
     position: fixed;
@@ -292,22 +286,4 @@ ul {
     overflow: auto;
     /* Enable scrolling if the sidenav has too much content */
     
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: fixed;
-    
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }

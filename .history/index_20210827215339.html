@@ -5,7 +5,26 @@
 
 
 <head>
-    
+    <style>
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 12px 16px;
+            z-index: 1;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        </style>
     <link rel="stylesheet" href="css/style.css">
     <meta name="website" keywords="my First Website">
     <meta charset="UTF-8">
@@ -19,16 +38,16 @@
     <div class="dropdown">
         <span>menu</span>
         <div class="dropdown-content">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
+          p>
         </div>
       </div>
     
-    
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
     <div class="container">
         <div>
             <h3 class="bar2" id="top"><b>Hello There, Welcome To</b></h3>
