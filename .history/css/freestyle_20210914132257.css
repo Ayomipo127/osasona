@@ -1,0 +1,43 @@
+body{
+    background-image: url('../images/christ.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0, -8, 0 ,8;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 110%;
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+li:last-child {
+    border-left: 2px solid #ffddff;
+}
+form{
+    background: #4b3131 ;
+    padding: 20px;
+    max-width: 190px;
+    max-width: 50%;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
