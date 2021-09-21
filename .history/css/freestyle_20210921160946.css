@@ -96,7 +96,7 @@ background-attachment: fixed;
 }
 
 th{
-    color: antiquewhite; 
+    color: antiquewhite; m
 }
 
 div{
@@ -104,10 +104,4 @@ min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-}
-
-.company{
- 
-margin-left: 0;
-clear: right;
 }

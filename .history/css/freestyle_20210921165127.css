@@ -107,7 +107,11 @@ align-items: center;
 }
 
 .company{
- 
+float: ; 
 margin-left: 0;
 clear: right;
+}
+
+#logo{
+   
 }
