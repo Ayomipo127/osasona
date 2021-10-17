@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<base src="../osasona">
+
+<head>
+    <link rel="stylesheet" href="css/page.css">
+
+    <meta name="website" keywords="my First Website"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device--width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>My First Website</title>
+</head>
+
+<body>
+    
+<div class="full-page">
+    
+    <div class="navbar">
+            <div>
+                <a href="Untitled-1.html"> seek coding</a>
+            </div>
+       <nav>
+            <ul id="MenuItems">
+        <li><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="products.asp">Products</a></li>
+        <li><a href="contact.asp">Contact Us</a></li>
+        <li><a href="about.asp">About Us</a></li>
+        <li>
+            <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'" style="width: auto;"> 
+                Login
+            </button>
+        </li>
+          </ul>
+        </nav>
+    </div>
+    <div id="login-form" class="login-form">
+<div class="form-box">
+    <div id="btn"></div>
+    <button type='button'onclick='login()' class="toggle-btn"> LOG-IN  </button>
+    <button type='button'onclick='register()' class="toggle-btn"> Register  </button>
+</div>
+<div>
+<form action="" id="login" class="input-group-login">
+<input type="text" class="input-field" placeholder="Email Id" required>
+<input type="password" class="input-field" placeholder="Enter Password" required>
+<input type="checkbox" class="check-box"> <span> Remeber Password</span>
+<button type="submit" class="submit-btn"> Log in</button>
+
+</form>
+
+<form action="" id="login" class="input-group-login">
+<input type="text" class="input-field" placeholder="Email Id" required>
+<input type="password" class="input-field" placeholder="Enter Password" required>
+<input type="password" class="input-field" placeholder="Confirm Password" required>
+<input type="checkbox" class="check-box"> <span> I Agree to the terms and conditions</span>
+<button type="submit" class="submit-btn"> Register</button>
+
+</form>
+</div>
+    </div>
+</div>
+    
+</body>
+
+</html>
