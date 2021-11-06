@@ -156,7 +156,7 @@ p {
     font-style: italic;
     font-family: cursive;
     margin: 10px;
-    
+    font-size: 74%;
     display: inline;
     word-wrap: break-word;
 }

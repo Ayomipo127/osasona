@@ -116,12 +116,12 @@ th {
     color: antiquewhite; 
 }
 
-
 .formal{
 min-height: 100vh;
 display: flex;
 justify-content: center;
-flex-direction: row;
+align-items: flex-start;
+flex-direction: ;
 }
 
 
