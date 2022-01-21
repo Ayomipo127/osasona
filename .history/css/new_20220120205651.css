@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+width: 100%;
+background: linear-gradient(to top), rgba(0, 0, 0, 0.5) 50%,  rgba(0, 0, 0, 0.5) 50%;
+background-position: center;
+background-size: cover;
+background-image: url('../images/venom.jpg') ;
+height: 100vh;
+}
+
+.navbar{
+width: fit-content;
+height: 75px;
+margin: auto;	
+}
+
+.icon{
+	width
+}
