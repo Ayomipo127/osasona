@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.MenuItems a{
+font-size: 9px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: transparent;
+    position: relative;
+
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style:none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color:rgb(17, 8, 8);
+    font-family: sans-serif;
+}
+nav ul li button{
+    
+    font-size: 20px;
+    color: black;
+    outline: none;
+    cursor:pointer;
+    border:none;
+    background: transparent;
+    font-family: sans-serif;
+}
+
+nav ul li button:hover{
+    color:aqua;
+}
+
+nav ul li a:hover{
+    color:aqua;
+}
+
+a{
+    text-decoration: none;
+    font-size: 38px solid;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo h2{
+    color: rgb(248, 248, 247);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    width: auto;
+    height: auto;
+    margin-left: 12px;
+    font-size: 33px;
+}
+
+.logo a{
+    font-size: 100%;
+}
+
+.logo a:hover{
+    color: #942323;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-content h2{
+    align-self: center;
+    font-size: 30px;
+}
+
+.about-content h4{
+    align-self: center;
+    font-size: 20px;
+}
+
+.about-btn{
+    width: 150px;
+}

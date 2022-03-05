@@ -1,0 +1,17 @@
+{
+	"wallaby.codeLensFeature.debugger": false,
+	"wallaby.codeLensFeature.profiler": false,
+	"wallaby.codeLensFeature.testFilters": false,
+	"wallaby.codeLensFeature.updateSnapshots": false,
+	"wallaby.codeLensFeature.testStory": false,
+	"wallaby.outputInspectorFeature.showDocHeader": false,
+	"wallaby.reportFailuresAsProblems": false,
+	"wallaby.runOnSaveIndicators": false,
+	"wallaby.showStartViewOnFeatureRelease": false,
+	"wallaby.showUpdateNotifications": false,
+	"wallaby.startAutomatically": false,
+	"wallaby.startViewStatusBar": false,
+	"wallaby.strictSSL": false,
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true
+}
