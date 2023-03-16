@@ -123,3 +123,8 @@ switch (color) {
 }
 
 
+var c = prompt('what is your Age?')
+
+console.log(c);
+
+
