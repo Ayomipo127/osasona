@@ -8,8 +8,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-.logo{
-	color: #22151599;
+
+/** navigation bar **/
+.logo {
+  color: #22151599;
   font-size: 37px;
   text-align: left;
   font-family: sans-serif;
@@ -36,6 +38,7 @@ nav ul li {
   display: inline-block;
   margin-right: 100px;
 }
+
 nav ul li a {
   text-decoration: none;
   font-size: 20px;
@@ -53,6 +56,7 @@ a {
   font-size: 38px solid;
 }
 
+/** header part**/
 .headerbg {
   height: 200px;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
@@ -61,19 +65,23 @@ a {
   text-align: center;
   color: white;
 }
+
 .Tofs {
   margin-top: 40px;
   font-size: 3.5em;
 }
+
 .wtmfs {
   text-align: center;
   font-size: 2em;
 }
+
 .service-content {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .content {
   height: 150px;
   width: 250px;
@@ -84,6 +92,7 @@ a {
     5px 5px 7px rgb(98, 109, 125, 0.29);
   margin-left: 2%;
 }
+
 .content2 {
   margin: 15px;
   height: 150px;
@@ -94,6 +103,7 @@ a {
   box-shadow: inset -4px -4px 8px rgb(196, 215, 240),
     inset 5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .content3 {
   height: 150px;
   width: 250px;
@@ -126,12 +136,14 @@ a {
     inset 5px 5px 7px rgb(98, 109, 125, 0.29);
   margin-left: 90px;
 }
+
 .image {
   height: 130px;
   width: 130px;
   border-radius: 100%;
   padding: 2rem;
 }
+
 .wwd {
   font-size: 1em;
 }
@@ -144,11 +156,13 @@ a {
   font-size: 2em;
   color: darkgreen;
 }
+
 .content5 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .contactus {
   height: 550px;
   width: 450px;
@@ -158,6 +172,7 @@ a {
     5px 5px 7px rgb(98, 109, 125, 0.29);
   margin-left: 2%;
 }
+
 .signin {
   margin: 15px;
   height: 550px;
@@ -178,6 +193,7 @@ a {
   box-shadow: -4px -4px 8px rgb(196, 215, 240),
     5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .Email {
   border-radius: 20px;
   height: 20px;
@@ -188,6 +204,7 @@ a {
   box-shadow: -4px -4px 8px rgb(196, 215, 240),
     5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .phonenumber {
   border-radius: 20px;
   height: 20px;
@@ -198,6 +215,7 @@ a {
   box-shadow: -4px -4px 8px rgb(196, 215, 240),
     5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .subject {
   border-radius: 20px;
   height: 20px;
@@ -208,6 +226,7 @@ a {
   box-shadow: -4px -4px 8px rgb(196, 215, 240),
     5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .message {
   height: 150px;
   width: 250px;
@@ -217,6 +236,7 @@ a {
   box-shadow: inset -4px -4px 8px rgb(196, 215, 240),
     inset 5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .sendmessage {
   border-radius: 20px;
   background-color: red;
@@ -227,9 +247,11 @@ a {
   box-shadow: -4px -4px 8px rgb(196, 215, 240),
     5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .form {
   margin-left: 100px;
 }
+
 .search {
   background-color: transparent;
   border-color: lightsteelblue;
@@ -241,6 +263,7 @@ a {
   box-shadow: -4px -4px 8px rgb(196, 215, 240),
     5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .Sbar {
   background-color: red;
   color: white;
@@ -251,9 +274,11 @@ a {
   box-shadow: -4px -4px 8px rgb(196, 215, 240),
     5px 5px 7px rgb(98, 109, 125, 0.29);
 }
+
 .sbtn {
   margin-left: 60px;
 }
+
 #username {
   height: 20px;
   width: 250px;
@@ -265,6 +290,7 @@ a {
   border-radius: 20px;
   margin-left: 100px;
 }
+
 #password {
   height: 20px;
   width: 250px;
@@ -276,6 +302,7 @@ a {
   border-radius: 20px;
   margin-left: 100px;
 }
+
 .btnn {
   border-radius: 10px;
   background-color: rgb(32, 26, 26);
@@ -283,7 +310,7 @@ a {
   height: 40px;
   width: 100px;
   margin-left: 170px;
-  box-shadow: -4px -4px 8px rgb(196, 215, 240),    5px 5px 7px rgb(98, 109, 125, 0.29);
+  box-shadow: -4px -4px 8px rgb(196, 215, 240), 5px 5px 7px rgb(98, 109, 125, 0.29);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;

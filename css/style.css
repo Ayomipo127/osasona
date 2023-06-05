@@ -87,55 +87,71 @@ a {
     color: #ffffff;
 }
 
-
-.login-btn {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bolder;
-    font-size: 20px;
-    background-color: transparent;
-    align-self: center;
-    width: 85%;
-    padding: 10px 30px;
-    cursor: pointer;
-    display: block;
+.login-page {
+    width: 400px;
+    padding: 8% 0 0;
     margin: auto;
-    background: #1b150e;
-    border: 0;
-    outline: none;
-    border-radius: 30px;
-    color: #ffffff;
 }
 
 .form {
-    width: 250px;
-    height: 320px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
-    position: absolute;
-    top: 150px;
-    left: 5px;
-    border-radius: 10px;
-    padding: 25px;
-    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 400px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.input-field {
+.form input {
+    font-family: "Poppins", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
     width: 100%;
-    padding: 10px 0;
-    margin: 5px 0;
-    border-left: 0;
-    border-top: 0;
-    border-right: 0;
-    border-bottom: 1px solid #999;
-    outline: none;
-    background: transparent;
-    color: #ffffff;
+    border: 0;
+    border-radius: 7px;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
 }
 
-input {
+.form button {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #234666;
     width: 100%;
-    height: 20px;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
 }
 
-#top {
-    color: rgb(149, 196, 40);
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #0e2941;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #234666;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
 }
